@@ -1,8 +1,53 @@
-.card {
-  background-color: pink;
-  margin: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  
+}
 
+body {
+  background-color: #111;
+}
+.card {
+  background-color: #333;
+  margin: 20px;
+  color: #fff;
+  border: 2px solid #aaa;
   border-radius: 10px;
   padding: 20px;
+  width: 300px;
+  text-align: center;
+}
 
+.card p {
+  margin: 20px;
+}
+
+.card img {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+
+.parent {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav {
+  background-color: lightblue;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  color: #111;
+  border-radius: 5px;
 }
