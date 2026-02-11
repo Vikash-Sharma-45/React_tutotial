@@ -10,10 +10,10 @@ const App = () => {
   }
 
   const pageScrolling = (val) => {
-    if(val > 0) {
-      console.log("Scrolling Down")
-    } else {
+    if(val < 0) {
       console.log("Scrolling Up")
+    } else {
+      console.log("Scrolling Down")
     }
   }
 
