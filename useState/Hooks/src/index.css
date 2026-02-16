@@ -21,3 +21,15 @@ body {
 
 }
 
+button {
+  padding: 10px 20px;
+  margin: 20px;;
+}
+h1 {
+  background-color: rgb(147, 144, 144);
+  width: fit-content;
+  font-size: 100px;
+  padding: 10px 70px;
+  margin: 20px;
+  border-radius: 5px;
+}
