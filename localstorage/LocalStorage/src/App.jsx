@@ -23,10 +23,20 @@ const App = () => {
     // localStorage.clear()
     // console.log(user)
 
-    async function getData() {
+
+    // Api call using fetch using function
+
+    // async function getData() {
+    //   const response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+    //   console.log(response)
+    
+    // Api call using fetch using arrow function
+
+    const getData = async () => {
       const response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
       console.log(response)
     }
+
 
   return (
     <div>
