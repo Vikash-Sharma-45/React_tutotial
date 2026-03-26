@@ -13,6 +13,7 @@ const Navbar = () => {
         <Link className='text-xl font-medium' to="/product">Product</Link>
         
       </div>
+      
     </div>
   )
 }

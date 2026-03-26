@@ -14,9 +14,10 @@ import Courses from './pages/Courses'
 import CourseDeatail from './pages/CourseDeatail'
 
 const App = () => {
+  
   return (
     <div className='h-screen bg-black text-white'>
-      <Navbar />
+      <Navbar/>
       
       <Routes> 
         <Route path="/" element={ <Home />} />
@@ -30,11 +31,14 @@ const App = () => {
           <Route path="kids" element={<Kids />} />
         </Route>
         
+        
 
         <Route path="*" element={<NotFound />} />
 
         
       </ Routes>
+      
+    
       <Footer />
     </div>
   )
